@@ -1,0 +1,10 @@
+1) Download and put all the files in the same directory.
+2) Make sure you have python and c++ setup in your pc.
+3) Then run the following command in your powershell/terminal "g++ main.cpp tsp.cpp -o tsp" (without the double quotes!).
+4) Now we will generate the input file for tsp by running the city_genertor.cpp ....
+   now run the command "./gen.exe 100 > tsp_input_1.txt" (don't use any other name for input file).
+   If everything goes correctly, we would have successfully generated the input data for tsp.
+5) Now run the following command to find the optimal path for the generated test set "./tsp tsp_input_1.txt".
+6) The above command will find and store the optimal ordering of points in a file by the name of "tsp_output".
+7) Now to visualize the optimal path run the following command "python visualizer.py".
+   
